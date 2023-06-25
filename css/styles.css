@@ -42,7 +42,8 @@ span {
   text-decoration: none;
 }
 .nav-link:hover,
-.nav-link:active {
+.nav-link:active,
+.nav-link:hover {
   color: var(--pressed-state-color);
   text-decoration: underline;
 }
@@ -60,7 +61,8 @@ span {
   text-decoration: none;
 }
 .link-contacts:hover,
-.link-contacts:active {
+.link-contacts:active,
+.link-contacts:focus {
   color: var(--pressed-state-color);
 }
 
@@ -129,8 +131,8 @@ span {
   list-style-type: none;
 }
 .our-team-title {
-  font-size: 36px;
   font-weight: 500;
+  font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -179,9 +181,13 @@ span {
   cursor: pointer;
 }
 .button-filter:hover,
-.button-filter:active {
+.button-filter:active,
+.button-filter:focus {
   color: var(--white-background);
   background-color: var(--pressed-state-color);
+}
+.filter-list {
+  list-style-type: none;
 }
 .category-list {
   list-style-type: none;
