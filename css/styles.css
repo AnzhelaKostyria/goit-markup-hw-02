@@ -17,6 +17,9 @@ body {
 header {
   background-color: var(--accent-color);
 }
+.logo-link {
+  text-decoration: none;
+}
 .logo {
   font-family: var(--logo-font);
   font-size: 18px;
@@ -30,55 +33,76 @@ header {
 span {
   color: var(--dark-color);
 }
-li {
+.list-nav {
   list-style-type: none;
 }
-.page-nav a {
+.nav-link {
+  font-weight: 500;
   font-size: 16px;
-  text-decoration: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--dark-color);
+  text-decoration: none;
 }
-.page-nav a:hover,
-.page-nav a:focus,
-.page-nav a:active {
+.nav-link:hover,
+.nav-link:active {
   color: var(--pressed-state-color);
   text-decoration: underline;
 }
-address a {
-  font-size: 16px;
-  text-decoration: none;
-  color: var(--text-color);
+.contacts {
+  font-style: normal;
 }
-address a:hover,
-address a:focus,
-address a:active {
+.list-address {
+  list-style-type: none;
+}
+.link-contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+  color: var(--text-color);
+  text-decoration: none;
+}
+.link-contacts:hover,
+.link-contacts:active {
   color: var(--pressed-state-color);
 }
+
 .title {
   background-color: var(--dark-color);
 }
-h1 {
+.main-title {
   font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02;
   color: var(--white-background);
 }
 .main-button {
   font-size: 16px;
+  font-family: var(--primary-font);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04;
   color: var(--white-background);
   background-color: var(--primary-brand-color);
-  width: 169px;
-  height: 56px;
-  border: none;
   cursor: pointer;
 }
-.main-button:hover {
+.main-button:hover,
+.main-button:focus {
   color: var(--white-background);
   background-color: var(--pressed-state-color);
 }
+.features-list {
+  list-style-type: none;
+}
 .title-feature {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02;
+  color: var(--dark-color);
 }
-.feature-list {
+.feature-text {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.5;
@@ -97,16 +121,20 @@ h1 {
   color: var(--dark-color);
   text-transform: capitalize;
 }
+.image-list {
+  list-style-type: none;
+}
 .our-team {
   background-color: var(--light-color);
 }
 .our-team-list {
   background-color: var(--white-background);
+  list-style-type: none;
 }
 .our-team-title {
   font-size: 36px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -115,6 +143,8 @@ h1 {
 .team-card-name {
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02;
+  color: var(--dark-color);
 }
 .team-card-profession {
   color: var(--text-color);
@@ -129,6 +159,7 @@ h1 {
   font-size: 16px;
   line-height: 1.5;
   color: var(--light-color);
+  letter-spacing: 0.02;
 }
 .logo-studio {
   color: var(--light-color);
@@ -137,26 +168,40 @@ h1 {
 .page-portfolio {
   background-color: var(--accent-color);
 }
+.button-list {
+  list-style-type: none;
+}
 .button-filter {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  letter-spacing: 0.04;
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-brand-color);
   background-color: var(--light-color);
   cursor: pointer;
-  border: none;
 }
 .button-filter:hover,
-.button-filter:focus,
 .button-filter:active {
   color: var(--white-background);
   background-color: var(--pressed-state-color);
 }
+.category-list {
+  list-style-type: none;
+}
+.category-link {
+  text-decoration: none;
+}
 .title-picture {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02;
+  color: var(--dark-color);
 }
 .picture-text {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02;
 }
