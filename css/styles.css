@@ -17,7 +17,7 @@ body {
 header {
   background-color: var(--accent-color);
 }
-.logo .link {
+.link {
   text-decoration: none;
 }
 .logo {
@@ -52,7 +52,7 @@ span {
 .contacts {
   font-style: normal;
 }
-.list-address {
+.contacts .list {
   list-style-type: none;
 }
 .link-contacts {
@@ -191,10 +191,10 @@ span {
 .filter-list {
   list-style-type: none;
 }
-.category-list {
+.category .list {
   list-style-type: none;
 }
-.category-link {
+.category .link {
   text-decoration: none;
 }
 .title-picture {
