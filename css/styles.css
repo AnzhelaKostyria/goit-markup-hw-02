@@ -93,7 +93,7 @@ span {
   color: var(--white-background);
   background-color: var(--pressed-state-color);
 }
-.features-list {
+.features .list {
   list-style-type: none;
 }
 .title-feature {
@@ -122,15 +122,17 @@ span {
   color: var(--dark-color);
   text-transform: capitalize;
 }
-.image-list {
+.images .list {
   list-style-type: none;
 }
 .our-team {
   background-color: var(--light-color);
 }
+.team .list {
+  list-style-type: none;
+}
 .our-team-list {
   background-color: var(--white-background);
-  list-style-type: none;
 }
 .our-team-title {
   font-weight: 500;
@@ -162,7 +164,7 @@ span {
   color: var(--light-color);
   letter-spacing: 0.02em;
 }
-.logo-studio {
+.footer .studio {
   color: var(--light-color);
 }
 
