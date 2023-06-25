@@ -17,9 +17,6 @@ body {
 header {
   background-color: var(--accent-color);
 }
-.logo-link {
-  text-decoration: none;
-}
 .logo {
   font-family: var(--logo-font);
   font-size: 18px;
@@ -58,7 +55,7 @@ span {
 .link-contacts {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: var(--text-color);
   text-decoration: none;
 }
@@ -74,7 +71,7 @@ span {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: var(--white-background);
 }
 .main-button {
@@ -82,7 +79,7 @@ span {
   font-family: var(--primary-font);
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   color: var(--white-background);
   background-color: var(--primary-brand-color);
   cursor: pointer;
@@ -99,7 +96,7 @@ span {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: var(--dark-color);
 }
 .feature-text {
@@ -143,7 +140,7 @@ span {
 .team-card-name {
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: var(--dark-color);
 }
 .team-card-profession {
@@ -159,7 +156,7 @@ span {
   font-size: 16px;
   line-height: 1.5;
   color: var(--light-color);
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 .logo-studio {
   color: var(--light-color);
@@ -174,7 +171,7 @@ span {
 .button-filter {
   font-family: var(--primary-font);
   font-weight: 500;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-brand-color);
@@ -196,12 +193,12 @@ span {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   color: var(--dark-color);
 }
 .picture-text {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
