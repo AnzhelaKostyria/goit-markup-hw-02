@@ -53,8 +53,82 @@ h1 {
   height: 56px;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 .main-button:hover {
   color: #ffffff;
   background-color: #404bbf;
+}
+.title-feature {
+  font-size: 20px;
+  font-weight: 1, 2;
+}
+.feature-list {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 1, 5;
+}
+.what-are-we-doing,
+.features {
+  background-color: #e7e9fc;
+}
+.what-are-we-doing-tiile {
+  font-size: 36px;
+  font-weight: 1, 11;
+}
+.our-team {
+  background-color: #f4f4fd;
+}
+.our-team-title {
+  font-size: 36px;
+  font-weight: 1, 11;
+}
+.team-card-name {
+  font-size: 20px;
+  font-weight: 1, 2;
+}
+.team-card-profession {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 1, 5;
+}
+footer {
+  background-color: #2e2f42;
+}
+.footer-paragraph {
+  font-size: 16px;
+  font-weight: 1, 5;
+  color: #f4f4fd;
+}
+.logo-studio {
+  color: #f4f4fd;
+}
+.page-portfolio {
+  background-color: #e7e9fc;
+}
+.button-filter {
+  font-size: 16px;
+  font-weight: 1, 5;
+  color: #4d5ae5;
+  height: 48px;
+  background-color: #f4f4fd;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+.button-filter:hover,
+.button-filter:focus,
+.button-filter:active {
+  color: #ffffff;
+  -webkit-text-stroke: 1px #000;
+  background-color: #404bbf;
+}
+.title-picture {
+  font-size: 20px;
+  font-weight: 1, 2;
+}
+.picture-text {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 1, 5;
 }
