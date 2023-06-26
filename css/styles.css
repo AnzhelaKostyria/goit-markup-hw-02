@@ -14,9 +14,6 @@ body {
   color: var(--text-color);
   background-color: var(--white-background);
 }
-header {
-  background-color: var(--accent-color);
-}
 .logo {
   font-family: var(--logo-font);
   font-size: 18px;
@@ -47,7 +44,6 @@ header {
 .menu:hover,
 .menu:focus {
   color: var(--pressed-state-color);
-  text-decoration: underline;
 }
 .address {
   font-style: normal;
@@ -103,10 +99,6 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
-.doings,
-.features {
-  background-color: var(--accent-color);
 }
 .doings-tiile {
   font-size: 36px;
@@ -164,10 +156,6 @@ header {
   color: var(--light-color);
 }
 
-.page-portfolio {
-  background-color: var(--accent-color);
-}
-
 .filter {
   font-family: var(--primary-font);
   font-weight: 500;
@@ -175,7 +163,6 @@ header {
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-brand-color);
-  background-color: var(--light-color);
   cursor: pointer;
 }
 
