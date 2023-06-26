@@ -163,6 +163,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-brand-color);
+  background-color: var(--light-color);
   cursor: pointer;
 }
 
