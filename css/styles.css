@@ -49,7 +49,7 @@ header {
   color: var(--pressed-state-color);
   text-decoration: underline;
 }
-.contacts {
+.address {
   font-style: normal;
 }
 
@@ -127,7 +127,6 @@ header {
 }
 
 .team-title {
-  font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -137,6 +136,7 @@ header {
 }
 
 .team-card-name {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
