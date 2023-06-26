@@ -17,9 +17,6 @@ body {
 header {
   background-color: var(--accent-color);
 }
-.link {
-  text-decoration: none;
-}
 .logo {
   font-family: var(--logo-font);
   font-size: 18px;
@@ -29,13 +26,17 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-span {
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.dark-studio {
   color: var(--dark-color);
 }
-.list-nav {
-  list-style-type: none;
-}
-.nav-link {
+
+.menu {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -43,28 +44,24 @@ span {
   color: var(--dark-color);
   text-decoration: none;
 }
-.nav-link:hover,
-.nav-link:active,
-.nav-link:hover {
+.menu:hover,
+.menu:focus {
   color: var(--pressed-state-color);
   text-decoration: underline;
 }
 .contacts {
   font-style: normal;
 }
-.contacts .list {
-  list-style-type: none;
-}
-.link-contacts {
+
+.contacts {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
   text-decoration: none;
 }
-.link-contacts:hover,
-.link-contacts:active,
-.link-contacts:focus {
+.contacts:hover,
+.contacts:focus {
   color: var(--pressed-state-color);
 }
 
@@ -93,9 +90,7 @@ span {
   color: var(--white-background);
   background-color: var(--pressed-state-color);
 }
-.features .list {
-  list-style-type: none;
-}
+
 .title-feature {
   font-weight: 500;
   font-size: 20px;
@@ -109,11 +104,11 @@ span {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.what-are-we-doing,
+.doings,
 .features {
   background-color: var(--accent-color);
 }
-.what-are-we-doing-tiile {
+.doings-tiile {
   font-size: 36px;
   font-weight: 500;
   line-height: 1.11;
@@ -122,19 +117,16 @@ span {
   color: var(--dark-color);
   text-transform: capitalize;
 }
-.images .list {
-  list-style-type: none;
-}
-.our-team {
+
+.team {
   background-color: var(--light-color);
 }
-.team .list {
-  list-style-type: none;
-}
-.our-team-list {
+
+.cards {
   background-color: var(--white-background);
 }
-.our-team-title {
+
+.team-title {
   font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
@@ -143,18 +135,21 @@ span {
   text-transform: capitalize;
   color: var(--dark-color);
 }
+
 .team-card-name {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
 }
+
 .team-card-profession {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .footer {
   background-color: var(--dark-color);
 }
@@ -164,6 +159,7 @@ span {
   color: var(--light-color);
   letter-spacing: 0.02em;
 }
+
 .footer .studio {
   color: var(--light-color);
 }
@@ -171,10 +167,8 @@ span {
 .page-portfolio {
   background-color: var(--accent-color);
 }
-.button-list {
-  list-style-type: none;
-}
-.button-filter {
+
+.filter {
   font-family: var(--primary-font);
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -184,21 +178,13 @@ span {
   background-color: var(--light-color);
   cursor: pointer;
 }
-.button-filter:hover,
-.button-filter:active,
-.button-filter:focus {
+
+.filter:hover,
+.filter:focus {
   color: var(--white-background);
   background-color: var(--pressed-state-color);
 }
-.filter-list {
-  list-style-type: none;
-}
-.category .list {
-  list-style-type: none;
-}
-.category .link {
-  text-decoration: none;
-}
+
 .title-picture {
   font-weight: 500;
   font-size: 20px;
